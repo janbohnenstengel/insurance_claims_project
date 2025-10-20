@@ -1,0 +1,68 @@
+
+Variable name	Description
+
+tpa		Third-party administrator ID
+policy_ref	Policy reference number
+member_id	Insured member ID
+sex		Sex of the insured member
+dob		Date of birth of the insured member
+policy_start_dt	Date of commencement of policy
+policy_end_dt	Date of expiry of policy
+prod_code	Product type
+policy_type	Policy type
+sum_insured	Maximum sum insured available to policyholder
+claim_ref	Claim reference number
+claim_dt	Date of claim intimation to insurer
+hospital_id	Unique ID given to hospital
+hos_zipcode	Zip code of the hospital
+admit_dt	Date of admission in hospital
+discharge_dt	Date of discharge from hospital
+payment_dt	Date of settlement of the claim
+claim_amt	Amount claimed by the claimant
+nursing_chg	Nursing charges incurred during treatment
+surgery_chg	Surgery charges incurred during treatment
+cons_fee	Doctor consultation charges incurred during treatment
+test_chg	Investigation charges of medical tests prescribed by the doctor
+pharmacy_cost	Medicines consumed during treatment
+other_chg	Any other charges that cannot be categorized in above
+pre_hosp_exp	Amount claimed for pre-hospitalization treatment
+post_hosp_exp	Amount claimed for post-hospitalization treatment
+other_chg_non_hosp	Other non-hospital charges (laundry, paid TV channels, guest F&B, etc.)
+copayment	Co-payment or excess if applicable
+settle_amt	Final amount paid to the insured or to the medical service provider on behalf of insured
+payment_type	The mode of payment (refer description)
+hosp_type	Whether hospital is networked, Y/N
+recommendation	Classified as Green/Discuss/Investigate by the claim settlement team
+fraud		Classified as Fraud/Non-Fraud by an expert consultant
+
+1.	Note: All the amounts are in US$ and dates are in d-mmm-yyyy format. The identity data such as policy number, claim number, and hospital details are masked to maintain the data privacy.
+
+prod_code	Product type
+A	Basic policy
+B	Hospital cash plan
+C	Outpatient coverage
+D	Universal health policy
+E	Microinsurance policy
+F	Package policy (covering more than one type of health above)
+G	Hybrid policy (covering other than health also)
+O	Any other product type
+
+policy_type	Policy type details
+A	Individual
+B	Individual floater
+C	Group
+D	Group floater
+E	Declaration
+F	Declaration floater
+G	Declaration with group insurance
+H	Declaration floater with group insurance
+O	Any other cover type
+
+payment_type	Claim payment type description
+A	Cashless settlement
+B	Reimbursement to claimant
+C	Cash benefit
+D	Per diem basis
+E	Lump-sum basis
+F	Cashless to the insured
+

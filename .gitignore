@@ -1,0 +1,20 @@
+# R and RStudio
+.Rhistory
+.RData
+.Ruserdata
+.Rproj.user/
+.Rproj
+
+# Quarto / outputs
+_site/
+public/
+*.html
+
+# VS Code
+.vscode/
+
+# Misc
+.DS_Store
+
+# Data
+data/
