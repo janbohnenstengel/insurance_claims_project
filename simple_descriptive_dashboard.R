@@ -22,7 +22,7 @@ ui <- navbarPage(
                           c("sum_insured_log", "claim_amt_log",
                             "settle_amt_log"))),
                  column(4, selectInput("colour", "Select Colour", choices =
-                          c("red", "gold", "violet"), selected = "violet")))
+                          c("firebrick", "goldenrod", "violet"), selected = "violet")))
              )
             ),
    tabPanel("Summary Tables",
